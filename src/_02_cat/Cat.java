@@ -9,7 +9,7 @@ package _02_cat;
 		* Create a CatRunner class in the cat package, with a main method that creates a Cat object.
 
         * 1. Make the Cat meow
-		
+	
 		* 2. Get the Cat to print it's name
 
 		* 3. Kill the Cat! 
@@ -47,7 +47,30 @@ public class Cat {
 			System.out.println("DEAD CAT :(");
 	}
 
+	public static void main(String [] args){
+		Cat egg = new Cat("ape");
+		egg.meow();
+		egg.printName();
+		egg.kill();
+		egg.kill();
+		egg.kill();
+		egg.kill();
+		egg.kill();
+		egg.kill();
+		egg.kill();
+		egg.kill();
+		egg.kill();
+		egg.kill();
+		egg.kill();
+		egg.kill();
+		egg.kill();
+		egg.kill();
+		egg.kill();
+		
+	}
+	
 
 }
+
 
 
