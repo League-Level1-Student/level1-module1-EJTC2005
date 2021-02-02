@@ -18,6 +18,7 @@ public static void main(String []Args){
 	JamesBond jamesbond = new JamesBond();
 	Vault vault = new Vault();
 	System.out.println(jamesbond.findCode(vault));
+	
 }
 	
 	
